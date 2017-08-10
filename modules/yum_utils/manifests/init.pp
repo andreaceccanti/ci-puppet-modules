@@ -1,9 +1,7 @@
 class yum_utils {
-  include emi3_release
 
   package { 'yum-utils':
     ensure  => present,
-    require => Class['emi3_release'],
   }
 
   define builddep {

@@ -1,5 +1,4 @@
 class voms_repos ($repo_scope = 'develop',) {
-  include emi3_release
   include egi_trust_anchors
   include test_ca
 

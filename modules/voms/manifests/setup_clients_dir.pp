@@ -3,7 +3,6 @@
 # Install voms-clients package.
 #
 class voms::setup_clients_dir {
-  require emi3_release
   require egi_trust_anchors
 
   file { '/etc/grid-security/vomsdir':

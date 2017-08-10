@@ -1,5 +1,4 @@
 class jenkins_slave ($maven_servers_data = [], $java_version = 8,) {
-  include emi3_release
   require maven_repo
 
   if $lsbmajdistrelease == 6 {
